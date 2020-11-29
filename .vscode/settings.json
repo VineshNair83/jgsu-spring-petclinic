@@ -1,0 +1,17 @@
+{
+  "jenkins-runner.jobs": {
+    "petclinic-ide": {
+      "runWith": "pipelines-8080",
+      "name": "petclinic-ide",
+      "isDefault": true
+    }
+  },
+  "jenkins-runner.hostConfigs": {
+    "pipelines-8080": {
+      "url": "http://localhost:8080",
+      "user": "admin",
+      "password": "admin",
+      "useCrumbIssuer": true
+    }
+  }
+}
