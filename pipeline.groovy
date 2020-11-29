@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps {
-                git branch: 'main', url: 'https://github.com/VineshNair83/jgsu-spring-petclinic.git'
+                git branch: 'master', url: 'https://github.com/VineshNair83/jgsu-spring-petclinic.git'
             }
         }
         stage('Build') {
